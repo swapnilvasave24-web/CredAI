@@ -1,0 +1,7 @@
+data_source=synthetic_homecredit_schema
+n_records=20000
+n_columns=21
+dtypes={'float64': 10, 'int64': 6, 'object': 5}
+missing_values_total=0
+duplicate_records=0
+target_distribution={0: 0.875, 1: 0.125}

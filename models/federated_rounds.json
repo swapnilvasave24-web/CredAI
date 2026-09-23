@@ -1,0 +1,167 @@
+[
+  {
+    "round_number": 1,
+    "status": "completed",
+    "participating_clients": [
+      "bank_a",
+      "bank_b",
+      "fintech_c"
+    ],
+    "client_reports": {
+      "bank_a": {
+        "local_loss": 0.6512565293362581,
+        "local_accuracy": 0.8211195479427865,
+        "n_samples": 5663
+      },
+      "bank_b": {
+        "local_loss": 0.6703551371729278,
+        "local_accuracy": 0.8224986858244261,
+        "n_samples": 5707
+      },
+      "fintech_c": {
+        "local_loss": 0.6405778030492411,
+        "local_accuracy": 0.8420825232231584,
+        "n_samples": 4629
+      }
+    },
+    "global_metrics": {
+      "accuracy": 0.8220444888777806,
+      "precision": 0.39587426326129665,
+      "recall": 0.806,
+      "f1": 0.530961791831357,
+      "roc_auc": 0.9068728934590117
+    }
+  },
+  {
+    "round_number": 2,
+    "status": "completed",
+    "participating_clients": [
+      "bank_a",
+      "bank_b",
+      "fintech_c"
+    ],
+    "client_reports": {
+      "bank_a": {
+        "local_loss": 0.6513802740938968,
+        "local_accuracy": 0.8393077873918418,
+        "n_samples": 5663
+      },
+      "bank_b": {
+        "local_loss": 0.6762692536758571,
+        "local_accuracy": 0.8144384089714386,
+        "n_samples": 5707
+      },
+      "fintech_c": {
+        "local_loss": 0.6424836889249775,
+        "local_accuracy": 0.8351695830632966,
+        "n_samples": 4629
+      }
+    },
+    "global_metrics": {
+      "accuracy": 0.8265433641589602,
+      "precision": 0.40357852882703776,
+      "recall": 0.812,
+      "f1": 0.5391766268260292,
+      "roc_auc": 0.9071630962582119
+    }
+  },
+  {
+    "round_number": 3,
+    "status": "completed",
+    "participating_clients": [
+      "bank_a",
+      "bank_b",
+      "fintech_c"
+    ],
+    "client_reports": {
+      "bank_a": {
+        "local_loss": 0.6492282060211991,
+        "local_accuracy": 0.8373653540526222,
+        "n_samples": 5663
+      },
+      "bank_b": {
+        "local_loss": 0.6686895434072359,
+        "local_accuracy": 0.8193446644471701,
+        "n_samples": 5707
+      },
+      "fintech_c": {
+        "local_loss": 0.638947055019222,
+        "local_accuracy": 0.8388420825232231,
+        "n_samples": 4629
+      }
+    },
+    "global_metrics": {
+      "accuracy": 0.8265433641589602,
+      "precision": 0.4026104417670683,
+      "recall": 0.802,
+      "f1": 0.536096256684492,
+      "roc_auc": 0.9070711225364182
+    }
+  },
+  {
+    "round_number": 4,
+    "status": "completed",
+    "participating_clients": [
+      "bank_a",
+      "bank_b",
+      "fintech_c"
+    ],
+    "client_reports": {
+      "bank_a": {
+        "local_loss": 0.6502713689456106,
+        "local_accuracy": 0.8295956206957443,
+        "n_samples": 5663
+      },
+      "bank_b": {
+        "local_loss": 0.6783228426688755,
+        "local_accuracy": 0.8214473453653408,
+        "n_samples": 5707
+      },
+      "fintech_c": {
+        "local_loss": 0.6418436591188129,
+        "local_accuracy": 0.8280406135234392,
+        "n_samples": 4629
+      }
+    },
+    "global_metrics": {
+      "accuracy": 0.8192951762059485,
+      "precision": 0.3920619554695063,
+      "recall": 0.81,
+      "f1": 0.5283757338551859,
+      "roc_auc": 0.9060337046558127
+    }
+  },
+  {
+    "round_number": 5,
+    "status": "completed",
+    "participating_clients": [
+      "bank_a",
+      "bank_b",
+      "fintech_c"
+    ],
+    "client_reports": {
+      "bank_a": {
+        "local_loss": 0.6536205048360718,
+        "local_accuracy": 0.8211195479427865,
+        "n_samples": 5663
+      },
+      "bank_b": {
+        "local_loss": 0.6718692184606244,
+        "local_accuracy": 0.8288067285789381,
+        "n_samples": 5707
+      },
+      "fintech_c": {
+        "local_loss": 0.645950447147417,
+        "local_accuracy": 0.8168070857636639,
+        "n_samples": 4629
+      }
+    },
+    "global_metrics": {
+      "accuracy": 0.8167958010497376,
+      "precision": 0.3876567020250723,
+      "recall": 0.804,
+      "f1": 0.5230969420949902,
+      "roc_auc": 0.904762067980577
+    }
+  }
+]

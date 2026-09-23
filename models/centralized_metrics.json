@@ -1,0 +1,24 @@
+{
+  "accuracy": 0.8456,
+  "precision": 0.43791946308724833,
+  "recall": 0.8365384615384616,
+  "f1": 0.5748898678414097,
+  "roc_auc": 0.9151812918951859,
+  "pr_auc": 0.6363310456477268,
+  "confusion_matrix": [
+    [
+      1853,
+      335
+    ],
+    [
+      51,
+      261
+    ]
+  ],
+  "decision_threshold": 0.5,
+  "n_train": 15000,
+  "n_val": 2500,
+  "n_test": 2500,
+  "target_rate_train": 0.125,
+  "best_iteration": 162
+}
